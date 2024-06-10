@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사진 공유 페이지</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?photography,nature') no-repeat center center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .hero h1, .hero p {
+            background-color: rgba(0, 0, 0, 0.5); /* 반투명 검정 배경 */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="display-4">사진 공유 페이지</h1>
+            <p class="lead">감성 사진을 공유합니다</p>
+        </div>
+    </section>
+
+    <!-- 구성요소 Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://source.unsplash.com/400x300/?nature,landscape" class="card-img-top" alt="자연 풍경 사진">
+                    <div class="card-body">
+                        <h5 class="card-title">자연 풍경 사진</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">여행사진</h6>
+                        <p class="card-text">여행가서 찍은 풍경 사진 입니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://source.unsplash.com/400x300/?mountain,travel" class="card-img-top" alt="산 풍경 사진">
+                    <div class="card-body">
+                        <h5 class="card-title">산 풍경 사진</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">여행사진</h6>
+                        <p class="card-text">여행가서 찍은 산의 풍경 사진 입니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://source.unsplash.com/400x300/?beach,travel" class="card-img-top" alt="해변 풍경 사진">
+                    <div class="card-body">
+                        <h5 class="card-title">해변 풍경 사진</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">여행사진</h6>
+                        <p class="card-text">여행가서 찍은 해변의 풍경 사진 입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="text-center p-3">
+                © 2023 Your Website:
+                <a class="text-dark" href="#">YourWebsite.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
